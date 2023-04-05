@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Outline
+Coming soon!
+
+# User Stories
+Coming soon!
+
+# Wireframes
+Wireframes can be found [here](https://github.com/mxrtydluffy/Responsive-SFPOPOS/tree/main/Wireframes)
+
 ## Available Scripts
 
 In the project directory, you can run:
