@@ -1,7 +1,8 @@
 .POPOSDetails {
     display: flex;
+    justify-content: center;
     flex-direction: row-reverse;
-    width: 960px;
+    width: auto;
     margin: auto;
 }
 
@@ -26,4 +27,29 @@
 
 .POPOSDetails .POPOSDetails-hours {
     font-size: 1.5em;
+}
+
+/* Mobile */
+@media only screen and (max-width: 480px) {
+    .POPOSDetails {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .image {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .POPOSDetails {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .POPOSDetails-image {
+        width: 75%;
+    }
 }
