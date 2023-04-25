@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function POPOSSpace(props) {
   const { name, image, address, hours, id } = props
   return (
-    <div className='POPOSSpace'>
+    <section className='POPOSSpace'>
       <h1>
         <Link to={`/details/${id}`} className='POPOSSpace-title'>
           {name}
@@ -14,10 +14,10 @@ function POPOSSpace(props) {
         <img src={`${process.env.PUBLIC_URL}/images/${image}`} width="350" height="350" alt="box"/>
       </Link>
       <div className='POPOSSpace-info'>
-        <div>{address}</div>
-        <div className='hours'>{hours}</div>
+        <address>{address}</address>
+        <h5 className='hours'>{hours}</h5>
       </div>
-    </div>
+    </section>
   )
 }
 

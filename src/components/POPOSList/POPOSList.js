@@ -23,22 +23,22 @@ function POPOSList() {
     })
 
     return (
-        <>  
-            <div className='topnav'>
-                <form>
-                    <input
-                        value={query}
-                        placeholder="search"
-                        onChange={(e) => setQuery(e.target.value)}
-                    />
-                    <button id='list-button' type="submit">search</button>
-                </form>
-            </div>
+        <article aria-label='SFPOPOS-list'>  
+          <div className='topnav'>
+              <form>
+                  <input
+                      value={query}
+                      placeholder="search"
+                      onChange={(e) => setQuery(e.target.value)}
+                  />
+                  <button id='list-button' type="submit">search</button>
+              </form>
+          </div>
 
-            <div className='POPOSList'>
-                {spaces}
-            </div>
-        </>
+          <div className='POPOSList'>
+              {spaces}
+          </div>
+        </article>
         )
     }
       

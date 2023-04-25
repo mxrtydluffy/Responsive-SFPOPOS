@@ -8,12 +8,12 @@
     padding: 1em;
     border-bottom: 1px solid black;
     margin-bottom: 2em;
-    background-color: rgb(192, 45, 26);
-    color: #fff;
+    background-color: #A52727;
+    color: #f1f1f1;
   }
 
   .Title-Subtitle {
-    color: rgba(255, 255, 255, 0.75);
+    color: #595959;
   }
 
   .navBar, h1 {
@@ -25,12 +25,12 @@
   .Title a {
     display: inline-block;
     padding: 0.5em 1em;
-    color: rgba(255, 255, 255, 0.835);
+    color: #4d4d4d;
     font-weight: bold;
     text-decoration: none;
 }
 
   .Title .nav-link-active {
-    color: #fff;
+    color: #f1f1f1;
     border-bottom: 2px solid;
   }

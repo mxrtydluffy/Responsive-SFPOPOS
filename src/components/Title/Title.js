@@ -6,20 +6,20 @@ import RandomSpace from '../RandomSpace/RandomSpace';
 function Title() {
   return (
     <div className='Title'>
-    <header>
-      <h1>SFPOPOS</h1>
-      <h2><div className='Title-Subtitle'>San Francisco Privately Owned Public Open Spaces</div></h2>
+      <header>
+        <h1>SFPOPOS</h1>
+        <h2><div className='Title-Subtitle' aria-label='Navigation & Title site'>San Francisco Privately Owned Public Open Spaces</div></h2>
 
-      <div className='navBar'>
-        <NavLink 
-          className={({ isActive }) => isActive ? 'nav-link-active' : 'nav-link' }
-          to="/">List</NavLink>
-        <NavLink 
-          className={({ isActive }) => isActive ? 'nav-link-active' : 'nav-link' }
-          to="/about">About</NavLink>
-        <RandomSpace />
-      </div>
-    </header>
+        <nav className='navBar' role='navigation'>
+          <NavLink 
+            className={({ isActive }) => isActive ? 'nav-link-active' : 'nav-link' }
+            to="/">List</NavLink>
+          <NavLink 
+            className={({ isActive }) => isActive ? 'nav-link-active' : 'nav-link' }
+            to="/about">About</NavLink>
+          <RandomSpace />
+        </nav>
+      </header>
   </div>
   )
 }

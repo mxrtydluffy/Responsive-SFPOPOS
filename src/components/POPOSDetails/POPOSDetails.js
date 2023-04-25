@@ -10,7 +10,7 @@ function POPOSDetails() {
     const { images, title, desc, hours, features, geo } = data[id]
 
     return (
-        <div className='POPOSDetails'>
+        <section className='POPOSDetails' aria-label='SFPOPOS-Details'>
           <div className='POPOSDetails-image'>
             <img src={`${process.env.PUBLIC_URL}/images/${images[0]}`} alt={title} />
           </div>
@@ -22,7 +22,7 @@ function POPOSDetails() {
             <p className='POPOSDetails-geo'>{ geo.lat } { geo.lon }</p>
           </div>
     
-        </div>
+        </section>
     )
 }
 
